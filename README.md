@@ -11,7 +11,8 @@ The model is trained for 70 epochs, achieving a final loss of 0.022. The test ac
 ## 2. Cosine Function Regression Problem:
 
 Sixty data points are generated from the ground truth cosine function $f(x) = \cos(x)$.
-![Neural Network Architecture](Images/Train.png)
+
+![Neural Network Architecture](Images/Train.png){width=50%}
 
 The training data is passed into two hidden dense neurons with the hyperbolic tangent (tanh) activation function. The choice of the tanh function is made because unbounded activation functions can face problems such as exploding gradients.
 
