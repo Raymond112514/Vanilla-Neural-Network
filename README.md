@@ -19,3 +19,7 @@ Sixty data points are generated from the ground truth cosine function $f(x) = \c
 The training data is passed into two hidden dense neurons with the hyperbolic tangent (tanh) activation function. The choice of the tanh function is made because unbounded activation functions can face problems such as exploding gradients.
 
 The model is trained for 200 epochs, resulting in a final loss of 0.018. The final test loss is reported as 0.210.
+
+<p align="center">
+    <img src="Images/Test.png" alt="Neural Network Architecture" width="40%" style="display: block; margin: auto;"/>
+</p>
